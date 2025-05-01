@@ -11,10 +11,10 @@ const Footer: React.FC = () => {
           </p>
           <div className="flex space-x-4">
             <a
-              href="#overview"
+              href="#aperçu"
               className="text-dodge-gray-light hover:text-dodge-yellow transition-colors duration-300"
             >
-              Back to Top
+              Retour en Haut
             </a>
           </div>
         </div>

@@ -6,37 +6,37 @@ const Gallery: React.FC = () => {
   const images = [
     {
       url: "https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      alt: "Dodge Challenger SRT8 Yellow Jacket Front",
+      alt: "Dodge Challenger SRT8 Yellow Jacket - Avant",
     },
     {
       url: "https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      alt: "Dodge Challenger SRT8 Yellow Jacket Side",
+      alt: "Dodge Challenger SRT8 Yellow Jacket - Côté",
     },
     {
       url: "https://images.unsplash.com/photo-1486704155675-e4c07f8ad160?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      alt: "Dodge Challenger SRT8 Yellow Jacket Rear",
+      alt: "Dodge Challenger SRT8 Yellow Jacket - Arrière",
     },
     {
       url: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      alt: "Dodge Challenger SRT8 Yellow Jacket Interior",
+      alt: "Dodge Challenger SRT8 Yellow Jacket - Intérieur",
     },
     {
       url: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      alt: "Dodge Challenger SRT8 Yellow Jacket Detail",
+      alt: "Dodge Challenger SRT8 Yellow Jacket - Détail",
     },
     {
       url: "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-      alt: "Dodge Challenger SRT8 Yellow Jacket Wheels",
+      alt: "Dodge Challenger SRT8 Yellow Jacket - Jantes",
     },
   ];
 
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   return (
-    <section id="gallery" className="py-20 bg-dodge-black">
+    <section id="galerie" className="py-20 bg-dodge-black">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
-          <span className="highlight">Gallery</span>
+          <span className="highlight">Galerie</span>
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {images.map((image, index) => (
@@ -80,14 +80,14 @@ const Gallery: React.FC = () => {
                   disabled={selectedImage === 0}
                   onClick={() => setSelectedImage(selectedImage - 1)}
                 >
-                  Previous
+                  Précédent
                 </button>
                 <button
                   className="bg-dodge-gray-dark py-2 px-4 rounded text-white disabled:opacity-50"
                   disabled={selectedImage === images.length - 1}
                   onClick={() => setSelectedImage(selectedImage + 1)}
                 >
-                  Next
+                  Suivant
                 </button>
               </div>
             </div>

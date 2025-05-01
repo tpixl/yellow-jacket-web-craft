@@ -4,32 +4,32 @@ import React from "react";
 const Features: React.FC = () => {
   const features = [
     {
-      title: "Limited Edition",
+      title: "Édition Limitée",
       description:
-        "One of the rare Yellow Jacket limited editions, featuring exclusive Stinger Yellow paint with matching interior accents.",
+        "Une des rares éditions limitées Yellow Jacket, caractérisée par une peinture jaune Stinger exclusive avec des accents intérieurs assortis.",
     },
     {
-      title: "Manual Transmission",
+      title: "Transmission Manuelle",
       description:
-        "6-speed Tremec manual transmission offers precise control and an engaging driving experience.",
+        "Transmission manuelle Tremec à 6 vitesses offrant un contrôle précis et une expérience de conduite engageante.",
     },
     {
-      title: "SRT Performance",
+      title: "Performance SRT",
       description:
-        "SRT-tuned suspension, high-performance Brembo brakes, and launch control system for track-ready performance.",
+        "Suspension réglée par SRT, freins haute performance Brembo et système de contrôle de lancement pour des performances dignes des circuits.",
     },
     {
-      title: "Iconic Design",
+      title: "Design Iconique",
       description:
-        "Aggressive hood scoop, performance-oriented body styling, and Yellow Jacket badging set it apart from standard Challengers.",
+        "Prise d'air agressive sur le capot, carrosserie orientée performance et badge Yellow Jacket la distinguent des Challenger standard.",
     },
   ];
 
   return (
-    <section id="features" className="py-20 bg-gradient-to-b from-dodge-black to-dodge-black-light">
+    <section id="fonctionnalités" className="py-20 bg-gradient-to-b from-dodge-black to-dodge-black-light">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
-          <span className="highlight">Exclusive Features</span>
+          <span className="highlight">Fonctionnalités Exclusives</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {features.map((feature, index) => (
