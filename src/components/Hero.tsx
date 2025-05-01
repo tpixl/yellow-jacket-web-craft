@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <section id="aperçu" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-dodge-black">
         <div className="absolute inset-0 bg-gradient-to-b from-dodge-black via-transparent to-dodge-black opacity-80"></div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-60"></div>
+        <div className="absolute inset-0 bg-[url('/lovable-uploads/323852a5-3e94-45e1-828c-b48248651ec1.png')] bg-cover bg-center opacity-90"></div>
       </div>
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-3xl">
