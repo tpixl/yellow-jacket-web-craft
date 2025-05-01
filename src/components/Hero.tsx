@@ -3,10 +3,10 @@ const Hero: React.FC = () => {
   return <section id="aperçu" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-dodge-black">
         <div className="absolute inset-0 bg-gradient-to-b from-dodge-black via-transparent to-dodge-black opacity-80"></div>
-        <div className="absolute inset-0 bg-[url('https://i.ibb.co/PBmQyBX/20250501-224623.jpg')] bg-cover bg-center opacity-90"></div>
+        <div className="absolute inset-0 bg-[url('https://i.ibb.co/p674BKGw/20250501-224623.jpg')] bg-cover bg-center opacity-90"></div>
       </div>
-      <div className="container mx-auto px-4 z-10">
-        <div className="max-w-3xl">
+      <div className="container z-10 mx-0 my-0 py-0 px-0">
+        <div className="max-w-3xl py-0">
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
             2012 <span className="text-dodge-yellow">Dodge Challenger</span> SRT8 Yellow Jacket
           </h2>
