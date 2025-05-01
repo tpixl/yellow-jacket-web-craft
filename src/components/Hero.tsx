@@ -1,12 +1,9 @@
-
 import React from "react";
-
 const Hero: React.FC = () => {
-  return (
-    <section id="aperçu" className="relative h-screen flex items-center justify-center overflow-hidden">
+  return <section id="aperçu" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-dodge-black">
         <div className="absolute inset-0 bg-gradient-to-b from-dodge-black via-transparent to-dodge-black opacity-80"></div>
-        <div className="absolute inset-0 bg-[url('/lovable-uploads/323852a5-3e94-45e1-828c-b48248651ec1.png')] bg-cover bg-center opacity-90"></div>
+        <div className="absolute inset-0 bg-[url('https://i.ibb.co/PBmQyBX/20250501-224623.jpg')] bg-cover bg-center opacity-90"></div>
       </div>
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-3xl">
@@ -17,23 +14,15 @@ const Hero: React.FC = () => {
             Transmission Manuelle | 470 CV | Moteur HEMI V8 6.4L
           </p>
           <div className="reveal flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <a
-              href="#caractéristiques"
-              className="inline-block bg-dodge-yellow text-dodge-black py-3 px-8 rounded-md font-bold text-lg hover:bg-dodge-yellow-light transition duration-300"
-            >
+            <a href="#caractéristiques" className="inline-block bg-dodge-yellow text-dodge-black py-3 px-8 rounded-md font-bold text-lg hover:bg-dodge-yellow-light transition duration-300">
               Voir les Caractéristiques
             </a>
-            <a
-              href="#galerie"
-              className="inline-block bg-transparent border-2 border-white text-white py-3 px-8 rounded-md font-bold text-lg hover:bg-white hover:bg-opacity-10 transition duration-300"
-            >
+            <a href="#galerie" className="inline-block bg-transparent border-2 border-white text-white py-3 px-8 rounded-md font-bold text-lg hover:bg-white hover:bg-opacity-10 transition duration-300">
               Voir la Galerie
             </a>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
