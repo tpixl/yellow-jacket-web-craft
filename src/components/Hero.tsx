@@ -7,15 +7,13 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-dodge-black via-transparent to-dodge-black opacity-80"></div>
         <div className={`absolute inset-0 bg-no-repeat ${isMobile ? /*si mobile :*/"bg-[url('https://i.ibb.co/B2HmsGyK/20240417-203841-HALF.jpg')] bg-contain bg-center" : /*si no mobile*/"bg-[url('https://i.ibb.co/B2HmsGyK/20240417-203841-HALF.jpg')] bg-contain bg-center"}`} style={{
         width: "1500px",
-        /*height: "2000px",*/
         maxWidth: "100%",
         margin: "0 auto"
       }}></div>
       </div>
-      <div className="container z-10 mx-0 my-0 py-0 px-0" style={{
+      <div className="container z-10 mx-0 my-0 py-0 px-0 translate-y-750" style={{
         display: "flex",
-        justifyContent: "center",
-        right: "750px"
+        justifyContent: "center"
       }}>
         <div className="max-w-3xl py-0 px-[17px]">
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
