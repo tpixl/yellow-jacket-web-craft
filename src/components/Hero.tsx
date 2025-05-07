@@ -12,8 +12,8 @@ const Hero: React.FC = () => {
         <div className={`absolute inset-0 bg-no-repeat ${
           isMobile 
             ? "bg-[url('https://i.ibb.co/B2HmsGyK/20240417-203841-HALF.jpg')] bg-contain bg-center" 
-            : "bg-[url('https://i.ibb.co/B2HmsGyK/20240417-203841-HALF.jpg')] bg-center"
-        }`} style={{ width: "1010px", maxWidth: "100%", margin: "0 auto" }}></div>
+            : "bg-[url('https://i.ibb.co/B2HmsGyK/20240417-203841-HALF.jpg')] bg-cover bg-center"
+        }`}></div>
       </div>
       <div className="container z-10 mx-0 my-0 py-0 px-0 -translate-y-24">
         <div className="max-w-3xl py-0">
