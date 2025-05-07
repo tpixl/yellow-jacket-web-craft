@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
         flexDirection: "row",
         justifyContent: "center"
       }}>
-        <div className="max-w-3xl py-0 px-0" style={{
+        <div className="max-w-3xl py-50 px-5" style={{
           maxWidth: "1000px"
         }}>
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
