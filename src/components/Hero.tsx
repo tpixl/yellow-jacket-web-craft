@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
         flexDirection: "row",
         justifyContent: "center",
         maxWidth: "1100px",
-        maxHeight: "500px"
+        maxHeight: "900px"
       }}>
         <div className="max-w-3xl py-0 px-5" style={{
           maxWidth: "1000px",
