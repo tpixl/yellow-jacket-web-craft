@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         margin: "0 auto"
       }}></div>
       </div>
-      <div className={"absolute inset-0 z-10 mx-0 my-0 py-0 px-0" style={{
+      <div className="container z-10 mx-0 my-0 py-0 px-0" style={{
         width: "1500"
         /*display: "flex",
         justifyContent: "center"*/
