@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
         justifyContent: "center"
       }}>
         <div className="max-w-3xl py-0 px-0" style={{
-          maxWidth: "900px"
+          maxWidth: "1000px"
         }}>
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
             2012 <span className="text-dodge-yellow">Dodge Challenger</span> SRT8 Yellow Jacket
