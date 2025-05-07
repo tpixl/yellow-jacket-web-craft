@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         margin: "0 auto"
       }}></div>
       </div>
-      <div className="container z-10 mx-0 my-0 py-0 px-0 bg-center">
+      <div className="container z-10 mx-0 my-0 py-0 px-0 align-center">
         <div className="max-w-3xl py-0 px-[17px]">
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
             2012 <span className="text-dodge-yellow">Dodge Challenger</span> SRT8 Yellow Jacket
