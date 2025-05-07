@@ -1,3 +1,4 @@
+
 import React from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 const Hero: React.FC = () => {
@@ -19,7 +20,7 @@ const Hero: React.FC = () => {
           <p className="reveal text-xl md:text-2xl text-dodge-gray-light mb-8">
             Transmission Manuelle | 470 CV | Moteur HEMI V8 6.4L
           </p>
-          <div className="reveal flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+          <div className="reveal flex flex-col space-y-4">
             <a href="#caractéristiques" className="inline-block bg-dodge-yellow text-dodge-black py-3 px-8 rounded-md font-bold text-lg hover:bg-dodge-yellow-light transition duration-300">
               Voir les Caractéristiques
             </a>
