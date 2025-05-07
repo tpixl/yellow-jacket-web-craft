@@ -23,7 +23,9 @@ const Hero: React.FC = () => {
             <a href="#caractéristiques" className="inline-block bg-dodge-yellow text-dodge-black py-3 rounded-md font-bold text-lg hover:bg-dodge-yellow-light transition duration-300 px-[20px] mx-[240px]">
               Voir les Caractéristiques
             </a>
-            <a href="#galerie" className="inline-block bg-transparent border-2 border-white text-white py-3 rounded-md font-bold text-lg hover:bg-white hover:bg-opacity-10 transition duration-300 mx-[240px] px-[16px]">
+            <a href="#galerie" className="inline-block bg-transparent border-2 border-white text-white py-3 rounded-md font-bold text-lg hover:bg-white hover:bg-opacity-10 transition duration-300 mx-[240px] px-[16px]" style={{
+              width: "100px"
+            }}>
               Voir la Galerie
             </a>
           </div>
