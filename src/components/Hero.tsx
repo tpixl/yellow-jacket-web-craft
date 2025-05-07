@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          width: "1200px"
+          width: "1500px"
         }}>
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
             2012 <span className="text-dodge-yellow">Dodge Challenger</span> SRT8 Yellow Jacket
