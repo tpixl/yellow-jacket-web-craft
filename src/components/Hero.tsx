@@ -9,11 +9,11 @@ const Hero: React.FC = () => {
     <section id="aperçu" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-dodge-black">
         <div className="absolute inset-0 bg-gradient-to-b from-dodge-black via-transparent to-dodge-black opacity-80"></div>
-        <div className={`absolute inset-0 bg-no-repeat opacity-90 ${
+        <div className={`absolute inset-0 bg-no-repeat ${
           isMobile 
             ? "bg-[url('https://i.ibb.co/B2HmsGyK/20240417-203841-HALF.jpg')] bg-contain bg-center" 
-            : "bg-[url('https://i.ibb.co/B2HmsGyK/20240417-203841-HALF.jpg')] bg-cover bg-center"
-        }`}></div>
+            : "bg-[url('https://i.ibb.co/B2HmsGyK/20240417-203841-HALF.jpg')] bg-center"
+        }`} style={{ width: "1010px", maxWidth: "100%", margin: "0 auto" }}></div>
       </div>
       <div className="container z-10 mx-0 my-0 py-0 px-0 -translate-y-24">
         <div className="max-w-3xl py-0">
