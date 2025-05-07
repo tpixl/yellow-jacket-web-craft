@@ -11,17 +11,13 @@ const Hero: React.FC = () => {
         margin: "0 auto"
       }}></div>
       </div>
-      <div className="container flex flex-row z-10 mx-0 my-0 py-0 px-0" style={{
+      <div className="container z-10 mx-0 my-0 py-0 px-0" style={{
         /*display: "flex",
         flexDirection: "row",*/
         justifyContent: "center"
       }}>
         <div className="max-w-3xl py-0 px-0" style={{
-          width: "500px"
-        }}>
-        </div>
-        <div className="max-w-3xl py-0 px-0" style={{
-          width: "2000px"
+          width: "800px"
         }}>
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
             2012 <span className="text-dodge-yellow">Dodge Challenger</span> SRT8 Yellow Jacket
@@ -43,10 +39,6 @@ const Hero: React.FC = () => {
               Voir la Galerie
             </a>
           </div>
-        </div>
-        <div className="max-w-3xl py-0 px-0" style={{
-          width: "500px"
-        }}>
         </div>
       </div>
     </section>;
