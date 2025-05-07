@@ -13,8 +13,10 @@ const Hero: React.FC = () => {
       </div>
       <div className="container z-10 mx-0 my-0 py-0 px-0" style={{
         display: "flex",
+        flexDirection: "row",
         justifyContent: "center"
       }}>
+        <div></div>
         <div className="max-w-3xl py-0 px-[17px]" style={{
           /*display: "flex",
           flexDirection: "column",
@@ -42,6 +44,7 @@ const Hero: React.FC = () => {
             </a>
           </div>
         </div>
+        <div></div>
       </div>
     </section>;
 };
