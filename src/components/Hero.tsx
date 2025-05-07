@@ -14,11 +14,12 @@ const Hero: React.FC = () => {
       <div className="container z-10 mx-0 my-0 py-0 px-0" style={{
         display: "flex",
         flexDirection: "row",
-        justifyContent: "center"
+        justifyContent: "center",
+        maxWidth: "1100px",
+        maxHeight: "500px"
       }}>
         <div className="max-w-3xl py-0 px-5" style={{
           maxWidth: "1000px",
-          maxHeight: "500px"
         }}>
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
             2012 <span className="text-dodge-yellow">Dodge Challenger</span> SRT8 Yellow Jacket
