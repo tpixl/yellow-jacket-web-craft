@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
         <div className="max-w-3xl py-0 px-[17px]" style={{
           display: "flex",
           justifyContent: "center",
-          width: "1200px"
+          /*width: "1200px"*/
         }}>
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
             2012 <span className="text-dodge-yellow">Dodge Challenger</span> SRT8 Yellow Jacket
