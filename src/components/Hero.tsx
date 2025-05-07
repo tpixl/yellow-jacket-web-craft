@@ -20,14 +20,14 @@ const Hero: React.FC = () => {
             Transmission Manuelle | 470 CV | Moteur HEMI V8 6.4L
           </p>
           <div className="reveal flex flex-col space-y-4">
-            <a href="#caractéristiques" className="inline-block bg-dodge-yellow text-dodge-black py-3 rounded-md font-bold text-lg hover:bg-dodge-yellow-light transition duration-300" style={{
+            <a href="#caractéristiques" className="inline-block bg-dodge-yellow text-dodge-black py-3 rounded-md font-bold text-lg hover:bg-dodge-yellow-light transition duration-300 px-[10px]" style={{
               width: "250px",
               maxWidth: "100%",
               margin: "0 20px 0 0 auto"
             }}>
               Voir les Caractéristiques
             </a>
-            <a href="#galerie" className="inline-block bg-transparent border-2 border-white text-white py-3 rounded-md font-bold text-lg hover:bg-white hover:bg-opacity-10 transition duration-300" style={{
+            <a href="#galerie" className="inline-block bg-transparent border-2 border-white text-white py-3 rounded-md font-bold text-lg hover:bg-white hover:bg-opacity-10 transition duration-300 px-[10px]" style={{
               width: "250px",
               maxWidth: "100%",
               margin: "20px 0 0 0 auto"
