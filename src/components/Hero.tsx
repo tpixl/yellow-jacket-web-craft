@@ -18,10 +18,10 @@ const Hero: React.FC = () => {
       }}>
         <div className="max-w-3xl py-0 px-[17px]" style={{
           width: "500px"
-        }}>A
+        }}>
         </div>
         <div className="max-w-3xl py-0 px-[17px]" style={{
-          width: "1500px"
+          width: "2000px"
         }}>
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
             2012 <span className="text-dodge-yellow">Dodge Challenger</span> SRT8 Yellow Jacket
@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
         </div>
         <div className="max-w-3xl py-0 px-[17px]" style={{
           width: "500px"
-        }}>B
+        }}>
         </div>
       </div>
     </section>;
