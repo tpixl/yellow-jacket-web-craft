@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-dodge-black">
         <div className="absolute inset-0 bg-gradient-to-b from-dodge-black via-transparent to-dodge-black opacity-80"></div>
         <div className={`absolute inset-0 bg-no-repeat ${isMobile ? "bg-[url('https://i.ibb.co/W47WGKcC/20250501-224529.jpg')] bg-contain bg-center" : "bg-[url('https://i.ibb.co/W47WGKcC/20250501-224529.jpg')] bg-cover bg-center"}`} style={{
-        width: "1010px",
+        width: "1363px",
         maxWidth: "100%",
         margin: "0 auto"
       }}></div>
