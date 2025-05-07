@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
       }}>
         <div className="max-w-3xl py-0 px-[17px]" style={{
           width: "500px"
-        }}>
+        }}>A
         </div>
         <div className="max-w-3xl py-0 px-[17px]" style={{
           width: "1500px"
@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
         </div>
         <div className="max-w-3xl py-0 px-[17px]" style={{
           width: "500px"
-        }}>
+        }}>B
         </div>
       </div>
     </section>;
