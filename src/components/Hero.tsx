@@ -16,7 +16,10 @@ const Hero: React.FC = () => {
         flexDirection: "row",*/
         justifyContent: "center"
       }}>
-        <div></div>
+        <div className="max-w-3xl py-0 px-[17px]" style={{
+          width: "500px"
+        }}>
+        </div>
         <div className="max-w-3xl py-0 px-[17px]" style={{
           width: "1500px"
         }}>
@@ -41,7 +44,10 @@ const Hero: React.FC = () => {
             </a>
           </div>
         </div>
-        <div></div>
+        <div className="max-w-3xl py-0 px-[17px]" style={{
+          width: "500px"
+        }}>
+        </div>
       </div>
     </section>;
 };
