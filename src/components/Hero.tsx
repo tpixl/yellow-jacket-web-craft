@@ -14,8 +14,8 @@ const Hero: React.FC = () => {
       </div>
       <div className="container z-10 mx-0 my-0 py-0 px-0" style={{
         display: "flex",
-        justifyContent: 'center',
-        width: "1500"
+        justifyContent: "center",
+        width: "1500px"
       }}>
         <div className="max-w-3xl py-0 px-[17px]">
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
