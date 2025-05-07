@@ -12,10 +12,9 @@ const Hero: React.FC = () => {
         margin: "0 auto"
       }}></div>
       </div>
-      <div className="container z-10 mx-0 my-0 py-0 px-0" style={{
+      <div className="container z-10 mx-0 my-0 py-0 px-0 width-1500" style={{
         display: "flex",
         justifyContent: 'center',
-        translateX: "-700"
       }}>
         <div className="max-w-3xl py-0 px-[17px]">
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
