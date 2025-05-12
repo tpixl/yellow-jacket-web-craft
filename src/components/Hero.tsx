@@ -34,12 +34,12 @@ const Hero: React.FC = () => {
             }}>
               Voir les Caractéristiques
             </a>
-            <a href="#galerie" className="inline-block bg-transparent border-2 border-white text-white py-3 rounded-md font-bold text-lg hover:bg-white hover:bg-opacity-10 transition duration-300 px-[10px]" style={{
+            {/*<a href="#galerie" className="inline-block bg-transparent border-2 border-white text-white py-3 rounded-md font-bold text-lg hover:bg-white hover:bg-opacity-10 transition duration-300 px-[10px]" style={{
               width: "250px",
               maxWidth: "100%"
             }}>
               Voir la Galerie
-            </a>
+            </a>*/}
           </div>
         </div>
       </div>
