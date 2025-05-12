@@ -1,37 +1,29 @@
-
 import React from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
-
 const Hero: React.FC = () => {
   const isMobile = useIsMobile();
-  
-  return (
-    <section id="aperçu" className="relative h-screen flex items-top justify-center overflow-hidden">
+  return <section id="aperçu" className="relative h-screen flex items-top justify-center overflow-hidden">
       <div className="absolute inset-0 bg-dodge-black">
         <div className="absolute inset-0 bg-gradient-to-b from-dodge-black via-transparent to-dodge-black opacity-80"></div>
-        <div className={`absolute inset-0 bg-no-repeat ${isMobile ? "bg-[url('https://i.ibb.co/9m9sTXdF/20240417-203841-HALF.jpg')] bg-contain bg-center" : "bg-[url('https://i.ibb.co/9m9sTXdF/20240417-203841-HALF.jpg')] bg-contain bg-center"}`} 
-          style={{
-            width: "1500px",
-            maxWidth: "100%",
-            margin: "0 auto"
-          }}>
-        </div>
+        <div className={`absolute inset-0 bg-no-repeat ${isMobile ? /*si mobile :*/"bg-[url('https://i.ibb.co/9m9sTXdF/20240417-203841-HALF.jpg')] bg-contain bg-center" : /*si no mobile*/"bg-[url('https://i.ibb.co/9m9sTXdF/20240417-203841-HALF.jpg')] bg-contain bg-center"}`} style={{
+        width: "1500px",
+        maxWidth: "100%",
+        margin: "0 auto"
+      }}></div>
       </div>
-      <div className={`container z-10 mx-0 my-0 ${isMobile ? "py-5 px-0" : "py-20 px-0"}`} 
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "bottom",
-          height: "800px",
-          maxWidth: "1100px",
-        }}>
+      <div className={`container z-10 mx-0 my-0 ${isMobile ? "py-5 px-0" : "py-20 px-0"}`} style={{
+        display: "flex",
+        /*flexDirection: "row",*/
+        justifyContent: "center",
+        alignItems: "bottom",
+        height: "800px",
+        maxWidth: "1100px",
+      }}>
         <div className="max-w-3xl py-0 px-5" style={{
           maxWidth: "1000px",
         }}>
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
-            <span className="text-dodge-yellow">Dodge Challenger</span>
-            <br />
-            <span>SRT8 Yellow Jacket</span> 
+          <span className="text-dodge-yellow">Dodge Challenger</span><hr>SRT8 Yellow Jacket</hr> 
           </h2>
           <p className="reveal text-xl md:text-2xl text-dodge-gray-dark mb-8">
             Transmission Manuelle | 470 CV | Moteur HEMI V8 6.4L
@@ -52,8 +44,6 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
