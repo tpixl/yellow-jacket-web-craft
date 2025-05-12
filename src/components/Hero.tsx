@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
           </p>
           <div className="reveal flex flex-col space-y-4">
             <a href="#caractéristiques" className="inline-block bg-dodge-yellow text-dodge-black py-3 rounded-md font-bold text-lg hover:bg-dodge-yellow-light transition duration-300 px-[10px]" style={{
-              width: isMobile ? "180px" : "250px",
+              width: isMobile ? "200px" : "250px",
               maxWidth: "100%"
             }}>
               Caractéristiques
