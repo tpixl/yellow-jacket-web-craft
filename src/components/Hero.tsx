@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
               width: isMobile ? "165px" : "250px",
               maxWidth: "100%"
             }}>
-              Caractéristiquesss
+              Caractéristiques
             </a>
             {/*<a href="#galerie" className="inline-block bg-transparent border-2 border-white text-white py-3 rounded-md font-bold text-lg hover:bg-white hover:bg-opacity-10 transition duration-300 px-[10px]" style={{
               width: "250px",
