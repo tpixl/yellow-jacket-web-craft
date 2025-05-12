@@ -5,13 +5,13 @@ const Hero: React.FC = () => {
   return <section id="aperçu" className="relative h-screen flex items-top justify-center overflow-hidden">
       <div className="absolute inset-0 bg-dodge-black">
         <div className="absolute inset-0 bg-gradient-to-b from-dodge-black via-transparent to-dodge-black opacity-80"></div>
-        <div className={`absolute inset-0 bg-no-repeat ${isMobile ? /*si mobile :*/"bg-[url('https://iili.io/38YPqDg.jpg')] bg-cover bg-center" : /*si no mobile*/"bg-[url('https://i.ibb.co/9m9sTXdF/20240417-203841-HALF.jpg')] bg-contain bg-center"}`} style={{
+        <div className={`absolute inset-0 bg-no-repeat ${isMobile ? /*si mobile :*/"bg-[url('https://iili.io/38aWkoF.jpg')] bg-cover bg-center" : /*si no mobile*/"bg-[url('https://i.ibb.co/9m9sTXdF/20240417-203841-HALF.jpg')] bg-contain bg-center"}`} style={{
         width: "1500px",
         maxWidth: "100%",
         margin: "0 auto"
       }}></div>
       </div>
-      <div className={`container z-10 mx-0 my-0 ${isMobile ? "py-5 px-1" : "py-20 px-20"}`} style={{
+      <div className={`container z-10 mx-0 my-0 ${isMobile ? "py-5 px-1" : "py-30 px-20"}`} style={{
         display: "flex",
         /*flexDirection: "row",*/
         justifyContent: "left",
