@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         margin: "0 auto"
       }}></div>
       </div>
-      <div className={`container z-10 mx-0 my-0 ${isMobile ? "py-5 px-1" : "py-30 px-20"}`} style={{
+      <div className={`container z-10 mx-0 my-0 ${isMobile ? "py-5 px-1" : "py-20 px-20"}`} style={{
         display: "flex",
         /*flexDirection: "row",*/
         justifyContent: "left",
