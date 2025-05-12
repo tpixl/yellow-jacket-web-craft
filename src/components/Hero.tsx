@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         display: "flex",
         /*flexDirection: "row",*/
         justifyContent: "center",
-        alignItems: "bottom",
+        alignItems: "left",
         height: "800px",
         maxWidth: "1100px",
       }}>
