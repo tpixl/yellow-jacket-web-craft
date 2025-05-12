@@ -21,8 +21,8 @@ const Hero: React.FC = () => {
         <div className="max-w-3xl py-0 px-5" style={{
           maxWidth: "1000px",
         }}>
-          <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
-          <span className="text-dodge-yellow">Dodge Challenger</span> SRT8<br className="reveal text-5xl md:text-2xl font-bold text-white leading-tight mb-4" />Yellow Jacket
+          <h2 className="reveal text-2xl md:text-7xl font-bold text-white leading-tight mb-4">
+          <span className="text-dodge-yellow">Dodge Challenger</span> SRT8<br />Yellow Jacket
           </h2>
           <p className="reveal text-xl md:text-2xl text-dodge-gray-dark mb-8">
             Transmission Manuelle | 470 CV | Moteur HEMI V8 6.4L
