@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
             2012 <span className="text-dodge-yellow">Dodge Challenger</span> SRT8 Yellow Jacket
           </h2>
-          <p className="reveal text-xl md:text-2xl text-dodge-gray-light mb-8">
+          <p className="reveal text-xl md:text-2xl text-dodge-gray-dark mb-8">
             Transmission Manuelle | 470 CV | Moteur HEMI V8 6.4L
           </p>
           <div className="reveal flex flex-col space-y-4">
