@@ -11,14 +11,14 @@ const Hero: React.FC = () => {
         margin: "0 auto"
       }}></div>
       </div>
-      <div className={`container z-10 mx-0 my-0 ${isMobile ? "py-5 px-0" : "py-20 px-0"}`} style={{
+      <div className={`container z-10 mx-0 my-0 ${isMobile ? "py-5 px-5" : "py-20 px-20"}`} style={{
         display: "flex",
         /*flexDirection: "row",*/
         justifyContent: "left",
         height: "800px",
         maxWidth: "1100px",
       }}>
-        <div className="max-w-3xl py-0 px-25" style={{
+        <div className="max-w-3xl py-0 px-5" style={{
           maxWidth: "1000px",
         }}>
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
