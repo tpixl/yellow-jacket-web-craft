@@ -14,8 +14,7 @@ const Hero: React.FC = () => {
       <div className={`container z-10 mx-0 my-0 ${isMobile ? "py-5 px-0" : "py-20 px-0"}`} style={{
         display: "flex",
         /*flexDirection: "row",*/
-        justifyContent: "center",
-        alignItems: "left",
+        justifyContent: "left",
         height: "800px",
         maxWidth: "1100px",
       }}>
