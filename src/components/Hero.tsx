@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
         height: "800px",
         maxWidth: "1100px",
       }}>
-        <div className="max-w-3xl py-0 px-5" style={{
+        <div className="max-w-3xl py-0 px-25" style={{
           maxWidth: "1000px",
         }}>
           <h2 className="reveal text-5xl md:text-7xl font-bold text-white leading-tight mb-4">
