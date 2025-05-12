@@ -2,7 +2,7 @@ import React from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 const Hero: React.FC = () => {
   const isMobile = useIsMobile();
-  return <section id="aperçu" className="relative h-screen flex items-center justify-center overflow-hidden">
+  return <section id="aperçu" className="relative h-screen flex items-top justify-center overflow-hidden">
       <div className="absolute inset-0 bg-dodge-black">
         <div className="absolute inset-0 bg-gradient-to-b from-dodge-black via-transparent to-dodge-black opacity-80"></div>
         <div className={`absolute inset-0 bg-no-repeat ${isMobile ? /*si mobile :*/"bg-[url('https://i.ibb.co/B2HmsGyK/20240417-203841-HALF.jpg')] bg-contain bg-center" : /*si no mobile*/"bg-[url('https://i.ibb.co/B2HmsGyK/20240417-203841-HALF.jpg')] bg-contain bg-center"}`} style={{
