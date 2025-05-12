@@ -13,8 +13,8 @@ const Hero: React.FC = () => {
       </div>
       <div className="container z-10 mx-0 my-0 py-0 px-0" style={{
         display: "flex",
-        /*flexDirection: "row",
-        justifyContent: "center",*/
+        /*flexDirection: "row",*/
+        justifyContent: "center",
         height: "800px",
         maxWidth: "1100px",
       }}>
